@@ -10,8 +10,8 @@ import static java.lang.reflect.Array.newInstance;
  * @param <K> the key type
  * @param <V> the value type
  *
- * @author Your Name Here
  * @author Samuel A. Rebelsky
+ * @author Mina Bakrac
  */
 public class AssociativeArray<K, V> {
   // +-----------+---------------------------------------------------
