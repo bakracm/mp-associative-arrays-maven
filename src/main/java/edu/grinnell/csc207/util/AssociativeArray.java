@@ -63,7 +63,7 @@ public class AssociativeArray<K, V> {
    */
   public AssociativeArray<K, V> clone() {
     AssociativeArray<K,V> newArr = new AssociativeArray<>();
-    for(int i = 0; i < size; i++) {
+    for(int i = 0; i < this.size; i++) {
       newArr.pairs[i] = this.pairs[i];
     } // for
     return newArr;
